@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navs{
+    border-bottom: 1px solid gainsboro;
+}
+.bord{
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+
+}
+.bord a{
+    font-size: 13px;
+    font-weight: 700;
+} 
+.social-icons i{
+    font-size: 20px;
+    margin: 0px 5px;
+    color: black;
+    background-color:light;
+    border: none;
+}
+.social-icons div{
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+.good{
+    border-radius: 10px;
+}
+@media(max-width:991px){
+    .game {
+        width: 100%;
+    }
+}
+@media(max-width:553px){
+    .game{
+        width: 100%;
+    }
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color:red;
+    color: black;
+    
+}
